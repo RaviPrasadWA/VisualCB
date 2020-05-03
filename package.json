@@ -1,0 +1,40 @@
+{
+  "name": "visualcb",
+  "version": "1.0.0",
+  "description": "Visual Definition Creator v1.0.0",
+  "main": "main.build.js",
+  "dependencies": {
+    "dexie": "^1.2.0",
+    "dragula": "^3.6.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "mousetrap": "^1.5.3",
+    "pdfjs-dist": "2.2.228",
+    "regedit": "^3.0.3",
+    "string_score": "^0.1.22"
+  },
+  "devDependencies": {
+    "archiver": "^3.0.0",
+    "browserify": "^16.2.2",
+    "chokidar": "^2.0.4",
+    "decomment": "^0.9.0",
+    "electron": "^8.1.1",
+    "electron-installer-windows": "^1.1.1",
+    "electron-packager": "^14.0.4",
+    "electron-renderify": "0.0.2",
+    "standard": "^7.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildMain": "node ./scripts/buildMain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaviPrasadWA/VisualCB.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaviPrasadWA/VisualCB/issues"
+  },
+  "homepage": "https://github.com/RaviPrasadWA/VisualCB#readme"
+}
